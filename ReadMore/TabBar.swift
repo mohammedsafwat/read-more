@@ -10,12 +10,24 @@ import SwiftUI
 
 struct TabBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Home().tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
+            ContentView().tabItem {
+                Image(systemName: "rectangle.stack.fill")
+                Text("Passes")
+            }
+        }
     }
 }
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
-        TabBar()
+        Group {
+            TabBar().previewDevice("iPhone 11")
+            TabBar().previewDevice("iPhone 8")
+        }
     }
 }

@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct Update: Identifiable {
+    let id = UUID()
+    let image: String
+    let title: String
+    let content: String
+    let date: String
+}

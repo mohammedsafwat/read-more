@@ -7,15 +7,11 @@
 //
 
 import SwiftUI
+import Combine
 
-struct UpdateStore: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct UpdateStore_Previews: PreviewProvider {
-    static var previews: some View {
-        UpdateStore()
-    }
+class UpdateStore: ObservableObject {
+    @Published var updates: [Update] = [
+        Update(image: "Card1", title: "SwiftUI 1", content: "Text 1", date: "Jan 1"),
+        Update(image: "Card2", title: "SwiftUI 2", content: "Text 2", date: "Feb 20")
+    ]
 }
