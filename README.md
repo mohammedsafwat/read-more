@@ -1,7 +1,11 @@
-### Description
+# Read More
+> An iOS application built with SwiftUI that tracks your reading activity and organizes your library of books.
 
-"Read More" is a reading application for children that encourages them to read more.
+## How to run
+- Clone the repo.
+- Launch ReadMore.xcodeproj
 
-### Built With 🛠
+## Screenshots
 
-- SwiftUI.
+![First Screenshot](/screenshots/screenshot-1.png)
+![Second Screenshot](/screenshots/screenshot-2.png)
