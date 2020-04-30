@@ -159,7 +159,7 @@ struct TitleView: View {
             Image("Background2")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: UIScreen.main.bounds.width, height: 400, alignment: .top)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 3, alignment: .top)
             Spacer()
         }
     }
