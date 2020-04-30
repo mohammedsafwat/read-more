@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A24E3502448F6C8009BFDE5 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A24E34F2448F6C8009BFDE5 /* RingView.swift */; };
 		1A76BB392440DE0B004535D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A76BB382440DE0B004535D8 /* Home.swift */; };
 		1A76BB7D2444701E004535D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A76BB7C2444701E004535D8 /* HomeView.swift */; };
 		1A76BB7F24447B23004535D8 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A76BB7E24447B23004535D8 /* Section.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A24E34F2448F6C8009BFDE5 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		1A76BB382440DE0B004535D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1A76BB7C2444701E004535D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A76BB7E24447B23004535D8 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				1A76BB8724464BB4004535D8 /* UpdateDetail.swift */,
 				1A76BB8B24479A8F004535D8 /* UpdateStore.swift */,
 				1A76BB8D2447A326004535D8 /* TabBar.swift */,
+				1A24E34F2448F6C8009BFDE5 /* RingView.swift */,
 				1A9B28B2242151B600DEC06F /* Assets.xcassets */,
 				1A9B28B7242151B600DEC06F /* LaunchScreen.storyboard */,
 				1A9B28BA242151B600DEC06F /* Info.plist */,
@@ -188,6 +191,7 @@
 				1AB092C1243FD7060026AF9D /* MenuView.swift in Sources */,
 				1A76BB86244603FF004535D8 /* Update.swift in Sources */,
 				1A76BB832446026E004535D8 /* UpdatesList.swift in Sources */,
+				1A24E3502448F6C8009BFDE5 /* RingView.swift in Sources */,
 				1A76BB8C24479A8F004535D8 /* UpdateStore.swift in Sources */,
 				1A76BB392440DE0B004535D8 /* Home.swift in Sources */,
 				1A76BB8824464BB4004535D8 /* UpdateDetail.swift in Sources */,
