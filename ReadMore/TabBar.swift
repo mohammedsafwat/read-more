@@ -17,7 +17,7 @@ struct TabBar: View {
             }
             ContentView().tabItem {
                 Image(systemName: "rectangle.stack.fill")
-                Text("Passes")
+                Text("Books")
             }
         }
     }
