@@ -150,7 +150,7 @@ struct TitleView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Books")
+                Text("Library")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                 Spacer()
