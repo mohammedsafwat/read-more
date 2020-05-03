@@ -17,9 +17,10 @@ struct TabBar: View {
             }
             ContentView().tabItem {
                 Image(systemName: "rectangle.stack.fill")
-                Text("Books")
+                Text("Library")
             }
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
