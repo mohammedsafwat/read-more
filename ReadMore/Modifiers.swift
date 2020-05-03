@@ -8,14 +8,27 @@
 
 import SwiftUI
 
-struct Modifiers: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct ShadowModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .shadow(color: Color.black.opacity(0.1), radius: 6, x: 0, y: 8)
+            .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
     }
 }
 
-struct Modifiers_Previews: PreviewProvider {
-    static var previews: some View {
-        Modifiers()
+struct FontModifier: ViewModifier {
+    var style: Font.TextStyle = .body
+    
+    func body(content: Content) -> some View {
+        content
+            .font(.system(style, design: .rounded))
+    }
+}
+
+struct CustomFontModifier: ViewModifier {
+    var size: CGFloat = 28
+
+    func body(content: Content) -> some View {
+        content.font(.custom("WorkSans-Bold", size: size))
     }
 }
